@@ -22,7 +22,7 @@ class DriverUtils:
     __app_driver = None
 
     @classmethod
-    def get_mp_driver(cls):
+    def get_mp_driver_one(cls):
         if cls.__mp_driver is None:
             # 创建浏览器驱动对象 --> 打开浏览器
             cls.__mp_driver = selenium.webdriver.Chrome()
