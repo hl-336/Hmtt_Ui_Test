@@ -14,6 +14,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 class DriverUtils:
+    print("我是master谁敢随便改我")
     # 自媒体驱动对象私有属性
     __mp_driver = None
     # 后台管理系统
