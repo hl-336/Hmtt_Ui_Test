@@ -7,5 +7,6 @@ from utils import DriverUtils
 class TestBegin:
 
     def test_begin(self):
+        print("order_v1.2.0")
         # 关闭关闭浏览器驱动的开关
         DriverUtils.change_mp_key(False)
